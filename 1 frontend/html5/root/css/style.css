@@ -1,19 +1,32 @@
+@import url(reset.css);
+
+/* 범용적일수록 공통부분은 위에 배치, 해더 본문처럼 특화된 것은 아래에 배치 */
+
+.content-box{
+    height: inherit;
+    width: 960px;
+    margin: auto;
+    background: #ff000020;
+}
+
+/* ----------------------------------------------------- */
+
 #header{
     height: 70px;
-    background: yellow;
+    background: #ffff0045;
 }
 
 #visual{
     height: 171px;
-    background: green;
+    background: rgb(0, 255, 0);
 }
 
 #body{
     height: 300px;
-    background: red;
+    background: rgba(100%, 0%, 0%, 1);
 }
 
 #footer{
     height: 100px;
-    background: gray;
+    background: rgb(155, 155, 155);
 }
