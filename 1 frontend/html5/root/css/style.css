@@ -26,6 +26,22 @@
     background: rgba(100%, 0%, 0%, 1);
 }
 
+    #body>.content-box{
+        display: flex;
+    }
+
+    #aside{
+        height: inherit;
+        width: 205px;
+        background: rgb(255, 0, 212);
+    }
+
+    #main{
+        height: inherit;
+        width: 755px;
+        background: yellow;
+    }
+
 #footer{
     height: 100px;
     background: rgb(155, 155, 155);
