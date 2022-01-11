@@ -3,33 +3,38 @@
 .s1 ul{
     display: flex;
     background: gray;
-    flex-direction: row;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
+    height: 250px;
 }
 
 .s1 li{
-    flex-basis: 100px;
-    --flex-grow: 1;
-    
+    flex: 0 1 100px;    
+    flex-grow: 1;
 }
 
 .s1 li:nth-child(1) {
     background: red;
-    flex-grow: 3;
-    flex-shrink: 0;
+    order: 1;
 }
 
 .s1 li:nth-child(2) {
     background: green;
+    order: 5;
 }
 
 .s1 li:nth-child(3) {
     background: blue;
+    order: 3;
 }
 
 .s1 li:nth-child(4) {
     background: yellow;
+    order: 4;
 }
 
 .s1 li:nth-child(5) {
     background: lightblue;
+    order: 2;
 }
